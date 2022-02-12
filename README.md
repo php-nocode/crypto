@@ -11,7 +11,7 @@ If you love the no-code then you have to get your hands dirty with the code, if 
 To develop your webrequest locally, just copy and paste the following line into your terminal
 
 ```
-docker run --rm -v $PWD:/app -p 8080:80 javanile/webrequest webrequest-24h.php
+docker run --rm -it -v $PWD:/app -p 8080:80 javanile/webrequest webrequest-24h.php
 ```
 
 > For Microsoft Windows user replace `$PWD` with `%CD%`
